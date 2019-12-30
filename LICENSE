@@ -1,6 +1,49 @@
+PREAMBLE
+
+The original Fig-FORTH adaptation to the 6502 processor was done by
+the Forth Interest Group.
+
+I want to pay my sincere respects to all those FORTH enthusiasts and gurus,
+who so selflessly have shared their wisdom and knowledge throughout the years.
+My own career in programming has been rewarding and successful due to my early
+contacts with FORTH, which gave me a solid and structured foundation for all
+code I have produced thereafter.
+
+I wish that this FORTH implementation for the X16 retro machine will bravely
+walk along the same footsteps and give all readers their fair share of the
+insights and positive encouragement I know FORTH can provide.
+
+--SlowCorners, Lund, Sweden, 2020
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+FORTH INTEREST GROUP LICENSE
+
+Through the courtesy of
+
+                FORTH INTEREST GROUP
+                P.O.Box 1105
+                San Carlos, CA   94070
+
+                Release 1.1
+                With compiler security
+                and variable length names
+
+Further distribution must include the above notice. The FIG Installation
+Manual is required as it contains the model of FORTH and glossary of the
+system. Available from FIG at the above address for $10.00 postpaid.
+
+Translated from the FIG Model by W. F. Ragsdale. with input-output given for
+the Rockwell System-65. Transportation to other systems only requires
+alteration of: XEMIT, XKEY, XQTER, XCR and RSLW.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+SLOWCORNERS' LICENSE
+
+All my own contributions are provided as described below:
+
 MIT License
 
-Copyright (c) 2019 slowcorners
+Copyright (c) 2020 SlowCorners
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
